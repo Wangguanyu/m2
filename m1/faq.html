@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ice-cream cafe.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Diazepam Cafe</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="CSS/m1.css" rel="stylesheet" type="text/css" /></head>
+
+<body>
+<div id="banner">
+<img src="logo.jpg" width="223" height="138" /> </div>
+<div id="nav_bar"><h2><a href="homepage.html">Home</a> <a href="about%20us.html">About us</a> <a href="our%20servies.html">Our services</a> <a href="our%20products.html">Our products</a> <a href="sign%20in.html">Sign in</a> <a href="faq.html">Feedback</a> </h2></div>
+<div id="content"><!-- InstanceBeginEditable name="body" -->
+<script type="text/javascript">
+function openPage()
+{
+	var testit = document.getElementById["a"].value;
+    alert(testit);
+}
+    </script>
+ <br/>
+        <br>
+        <h2>How do you feel of this web site?</h2> 
+        <fieldset>
+            <input type="radio" name="siterating" id="sitepoor" value="Poor"
+                   onclick="checkSiteRating(); alert('Please make sure you write comments below about why the site is poor.'); document.mainForm.comments.focus()"/>
+            <label for="sitepoor">Poor - not useful</label>
+            <br/>
+            <input type="radio" name="siterating" id="sitegood" value="Good" onclick="checkSiteRating()"/>
+            <label for="sitegood">Good - useful, but could be better</label>
+            <br/>
+            <input type="radio" name="siterating" id="siteverygood" value="VeryGood" onclick="checkSiteRating()"/>
+            <label for="siteverygood">Very Good - a very useful site</label>
+        </fieldset>
+        <br>
+        <label for="comments">Please enter your comments about the website and possible improvements:<br>
+            <span id="characters">(10 characters remaining)</span>
+        </label>
+        <textarea name="comments" cols="50" rows="4" id="comments" onKeyUp="updateCharacters(10)"></textarea>
+        <br/>
+
+        <div id="submission">
+            <!--<input type="reset" value="Reset" name="Reset" id="Reset" onclick="return confirm('Reset all fields?')"/>-->
+            <input type="reset" value="Reset" name="Reset" id="Reset" onclick="return resetForm()" />
+            or
+            <input type="submit" value="Submit"/>
+        </div><!-- InstanceEndEditable --></div>
+<div id="footer"> 
+<a href="contact%20us.html">Contact us</a> </div>
+</body>
+<!-- InstanceEnd --></html>

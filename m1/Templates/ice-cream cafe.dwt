@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Diazepam Cafe</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../CSS/m1.css" rel="stylesheet" type="text/css" /></head>
+
+<body>
+<div id="banner">
+<img src="../logo.jpg" width="223" height="138" /> </div>
+<div id="nav_bar"><h2><a href="../homepage.html">Home</a> <a href="../about us.html">About us</a> <a href="../our servies.html">Our services</a> <a href="../our products.html">Our products</a> <a href="../sign in.html">Sign in</a> <a href="../faq.html">Feedback</a> </h2></div>
+<div id="content"><!-- TemplateBeginEditable name="body" -->body<!-- TemplateEndEditable --></div>
+<div id="footer"> 
+<a href="../contact us.html">Contact us</a> </div>
+</body>
+</html>

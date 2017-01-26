@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ice-cream cafe.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Diazepam Cafe</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="CSS/m1.css" rel="stylesheet" type="text/css" /></head>
+
+<body>
+<div id="banner">
+<img src="logo.jpg" width="223" height="138" /> </div>
+<div id="nav_bar"><h2><a href="homepage.html">Home</a> <a href="about%20us.html">About us</a> <a href="our%20servies.html">Our services</a> <a href="our%20products.html">Our products</a> <a href="sign%20in.html">Sign in</a> <a href="faq.html">Feedback</a> </h2></div>
+<div id="content"><!-- InstanceBeginEditable name="body" -->
+<script type="text/javascript">
+function openPage()
+{
+	var testit = document.getElementById["a"].value;
+    alert(testit);
+}
+    </script>
+<p>Please fill out the information below (Required fields are shown by *.)</p>
+
+    <form action="" method="post" name="mainForm" id="mainForm" onsubmit="return checkForm();">
+        
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" size="40" autofocus onKeyUp="nameEntered(this);"/>
+        
+<br>
+        <label for="login">
+            Your Login:</label>
+        <input type="text" id="login" name="login" size="40" value="e.g. tasty 1" onselect="clearField(this)"/>
+        <br />
+        <label for="email5"> YourEmail:</label>
+        <input type="email" name="email5" id="email5" onChange="this.style.borderRadius='1em'"/>
+        <br/>
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" size="40" style="color:#000000"
+               onKeyUp="setColourBasedOnLength('phone', 8)"/>
+       <br/>
+        <label for="Whatisyourgender">What is your gender?</label>
+        <select name="HowOftenVisit" id="HowOftenVisit">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>   
+        </select>
+          <br/>
+
+        <div id="submission">
+            <!--<input type="reset" value="Reset" name="Reset" id="Reset" onclick="return confirm('Reset all fields?')"/>-->
+            
+            <input type="submit" value="Submit"/>
+        </div>
+         <br/>
+        <label for="areas"> what kind of icecream do you want to buy?<br>
+            (<a href="our products.html" onclick="clearArea(); return false">click here to look around the ice-cream</a>)</label>
+            
+<!-- InstanceEndEditable --></div>
+<div id="footer"> 
+<a href="contact%20us.html">Contact us</a> </div>
+</body>
+<!-- InstanceEnd --></html>
